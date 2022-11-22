@@ -1,0 +1,26 @@
+.NotFound {
+	background-color: #161516;
+	color: #ffffff;
+	height: 100vh;
+	width: 100vw;
+}
+
+.NotFound .container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.error__title {
+	font-size: 250px;
+	line-height: 100px;
+	padding-bottom: 50px;
+}
+
+.error__text {
+	font-size: 30px;
+	padding-bottom: 80px;
+}

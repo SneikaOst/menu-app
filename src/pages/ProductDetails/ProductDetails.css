@@ -1,0 +1,85 @@
+.ProductDetails {
+	background: url('../../../public/images/background.png') center/cover no-repeat;
+	background-color: #161516;
+	color: #FFFFFF;
+	
+}
+
+.details__header {
+	display: flex;
+	padding-bottom: 25px;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.details__card {
+	align-items: center;
+	max-width: 1230px;
+	margin: 0 auto;
+	height: calc(100vh - 127px - 108px);
+	padding-bottom: 108px;
+	width: 100%;
+}
+
+
+.card-details {
+	display: flex;
+	height: 500px;
+	justify-content: space-between;
+}
+
+.card-details__img{
+	max-width: 500px;
+	max-height: 500px;
+	width: auto;
+	height: 100%;
+}
+
+.card-details__content {
+	margin: 60px 0;
+	margin-left: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	}
+
+.card-details__text {
+	overflow-y: auto;
+	max-width: 528px;
+
+}
+
+.card-details__name {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	color: #D58C51;
+	padding-bottom: 20px;
+}
+
+.card-details__description {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+
+}
+
+.card-details__bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 420px;
+	padding-top: 30px;
+}
+
+.card-details__price {
+	font-weight: 500;
+	font-size: 23px;
+	line-height: 28px;
+}
+
+.card-details__price span {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+}

@@ -1,0 +1,50 @@
+.card {
+	border: 1px solid #D58C51;
+	box-sizing: border-box;
+	transition: all .3s ease;
+}
+
+.card:hover {
+	color: #D58C51;
+}
+
+.card__link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.card__link:hover {
+	color: #D58C51;
+	cursor: pointer;
+}
+
+.card__name {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 21px;
+}
+
+.card__description {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.card__bottom {
+	display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.card__price {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 21px;
+}
+
+.card__price span {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+}
+

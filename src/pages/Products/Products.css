@@ -1,0 +1,81 @@
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+	color: #FFFFFF;
+}
+
+.Products {
+	background-color: #161516;
+	color: #FFFFFF;
+}
+
+.products__header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 48px;
+	padding-bottom: 75px;
+	align-items: flex-end;
+	
+}
+
+.products__header-text {
+	font-weight: 700;
+	font-size: 31px;
+	line-height: 38px;
+	text-transform: uppercase;
+}
+
+.products__cart {
+	display: flex;
+	align-items: center;
+	
+}
+
+.products__cart-text {
+	margin-right: 20px;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 21px;
+	text-align: right;
+}
+
+.products__cart-icon {
+	margin-right: 20px;
+} 
+
+.products__cards {
+	padding-bottom: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 12px;
+	row-gap: 35px;
+	height: calc(100vh - 173px - 35px);
+	overflow-y: auto;
+}
+
+.products__cards .card {
+	display: flex;
+    flex-direction: column;
+	width: 310px;
+	padding: 43px 27px 32px 21px;
+	padding-top: 43px;
+}
+
+.products__cards .card .card__name {
+	margin-top: 31px;
+	margin-bottom: 13px;
+}
+
+.products__cards .card .card__description {
+	margin-bottom: 25px;
+}
+
+.products__cards .card .card__bottom {
+	margin-top: auto;
+}
+
+.products__cards .card .card__button {
+	width: 30px;
+	height: 30px;
+	font-size: 24px; 
+}

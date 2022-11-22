@@ -1,0 +1,28 @@
+.button {
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	border: 1px solid;
+	cursor: pointer;
+	transition: all .275s ease;
+	box-sizing: border-box;
+}
+
+.button:hover {
+	background: #D58C51;
+	border-color: #D58C51;
+}
+
+
+.button svg {
+	fill: #D58C51;
+}
+
+.button:hover svg {
+	background-color: #D58C51;
+	fill: #ffffff;
+}
