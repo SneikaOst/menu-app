@@ -5,7 +5,7 @@ export const products = [
     "description":"Это очень полезное и вкусное блюдо. Мидии богаты белком, железом, фосфором и различными витаминами.",
     "price": 990,
     "weight":"500 г",
-    "img":"/images/mussels.png"
+    "img":"menu-app/images/mussels.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@ export const products = [
     "description":"Маринованные свиные ребрышки, зажаренные до золотистой корочки.",
     "price": 1600,
     "weight":"750 г",
-    "img":"/images/pork.png"
+    "img":"menu-app/images/pork.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@ export const products = [
     "description":"Это блюдо с деликатесными морепродуктами для двоих, которое можно попробовать с игристым вином на уютной открытой веранде",
     "price": 2800,
     "weight":"330 г",
-    "img":"/images/seafood.png"
+    "img":"menu-app/images/seafood.png"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@ export const products = [
     "description":"Аппетитная закуска или салат, который оценят любители ярких вкусовых ощущений — хрустящие баклажаны с помидорами и кинзой.",
     "price": 440,
     "weight":"260 г",
-    "img":"/images/eggplants.png"
+    "img":"menu-app/images/eggplants.png"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@ export const products = [
     "description":"Жареные тигровые креветки, гренки, сыр пармезан, томаты черри, листья салата, фирменный чесночный соус.",
     "price": 690,
     "weight":"170 г",
-    "img":"/images/cezar.png"
+    "img":"menu-app/images/cezar.png"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@ export const products = [
     "description":"Королевские креветки — диетический деликатес. Креветки богаты оксидантами, витаминами и полезными микроэлементами.",
     "price": 1820,
     "weight":"7 шт",
-    "img":"/images/shrimp.png"
+    "img":"menu-app/images/shrimp.png"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@ export const products = [
     "description":"Уникальный альтернативный стейк: ароматный, насыщенный отруб из нижней части живота бычка.",
     "price": 1100,
     "weight":"900 г",
-    "img":"/images/beef.png"    
+    "img":"menu-app/images/beef.png"    
   },
   {
     "id": 8,
@@ -61,6 +61,6 @@ export const products = [
     "description":"Тонкие слои хрустящего шоколадного теста, скрывающие в себе терпкое и ароматное ореховое пралине, а мороженое добавляет освежающую нотку насыщенному десерту.",
     "price": 340,
     "weight":"110 г",
-    "img":"/images/dessert.png"
+    "img":"menu-app/images/dessert.png"
   },
 ]
